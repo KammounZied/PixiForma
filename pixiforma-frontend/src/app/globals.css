@@ -1,0 +1,18 @@
+@config "../tailwind.config.ts";
+@import "tailwindcss";
+
+@layer base {
+  button:not(:disabled),
+  [role="button"]:not([aria-disabled="true"]) {
+    cursor: pointer;
+  }
+}
+
+@keyframes controls-idle {
+    0% { opacity: 1; }
+    90% { opacity: 1; }
+    100% { opacity: 0; }
+}
+.controls-idle {
+    animation: controls-idle 5s ease forwards;
+}

@@ -1,0 +1,41 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[remote "origin"]
+	url = https://gitlab.docker.piximind.com/piximind/pfa26/pixiforma/pixiforma-frontend.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "main"]
+	remote = origin
+	merge = refs/heads/main
+[branch "dev"]
+	vscode-merge-base = origin/main
+	remote = origin
+	merge = refs/heads/dev
+[branch "Feature_authentication"]
+	vscode-merge-base = origin/dev
+	remote = origin
+	merge = refs/heads/Feature_authentication
+[branch "Feature_authentificationMODIFIED_groupsEPIC"]
+	vscode-merge-base = origin/Feature_authentication
+	remote = origin
+	merge = refs/heads/Feature_authentificationMODIFIED_groupsEPIC
+[branch "feature-epic3-gestion-de-publication"]
+	vscode-merge-base = origin/Feature_authentificationMODIFIED_groupsEPIC
+	remote = origin
+	merge = refs/heads/feature-epic3-gestion-de-publication
+[branch "feature-epic-formation-sans-quiz"]
+	vscode-merge-base = origin/feature-epic3-gestion-de-publication
+	remote = origin
+	merge = refs/heads/feature-epic-formation-sans-quiz
+[branch "Feature/PF-3520_intelligent-evaluation"]
+	vscode-merge-base = origin/feature-epic-formation-sans-quiz
+	remote = origin
+	merge = refs/heads/Feature/PF-3520_intelligent-evaluation
+[branch "Feature/PF-3521_résumé-commentaires-ChangementDesign"]
+	vscode-merge-base = origin/Feature/PF-3520_intelligent-evaluation
+	remote = origin
+	merge = refs/heads/Feature/PF-3521_résumé-commentaires-ChangementDesign

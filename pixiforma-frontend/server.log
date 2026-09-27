@@ -1,0 +1,227 @@
+   ▲ Next.js 15.5.9
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.56.1:3000
+   - Environments: .env
+
+ ✓ Starting...
+ ✓ Ready in 3s
+ ○ Compiling /api/auth/[...nextauth] ...
+ ✓ Compiled /api/auth/[...nextauth] in 1004ms (512 modules)
+ GET /api/auth/session 200 in 2670ms
+ ○ Compiling /api/notifications ...
+ ✓ Compiled /api/notifications in 675ms (549 modules)
+ GET /api/notifications 200 in 1092ms
+ GET /api/auth/session 200 in 217ms
+ GET /api/notifications 200 in 221ms
+ GET /api/auth/session 200 in 81ms
+ GET /api/notifications 200 in 250ms
+ GET /api/auth/session 200 in 89ms
+ GET /api/notifications 200 in 224ms
+ GET /api/auth/session 200 in 80ms
+ GET /api/notifications 200 in 219ms
+ GET /api/auth/session 200 in 91ms
+ GET /api/notifications 200 in 278ms
+ GET /api/auth/session 200 in 78ms
+ GET /api/notifications 200 in 220ms
+ GET /api/auth/session 200 in 50ms
+ GET /api/notifications 200 in 204ms
+ GET /api/auth/session 200 in 99ms
+ GET /api/notifications 200 in 487ms
+ GET /api/auth/session 200 in 60ms
+ GET /api/notifications 200 in 159ms
+ GET /api/auth/session 200 in 48ms
+ GET /api/auth/session 200 in 41ms
+ GET /api/notifications 200 in 122ms
+ GET /api/auth/session 200 in 36ms
+ GET /api/notifications 200 in 97ms
+ GET /api/auth/session 200 in 31ms
+ GET /api/notifications 200 in 109ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 800ms (825 modules)
+ GET /api/auth/session 404 in 1081ms
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\MSI\Desktop\PixiForma\pixiforma-frontend\.next\server\app\api\notifications\route.js'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\MSI\\Desktop\\PixiForma\\pixiforma-frontend\\.next\\server\\app\\api\\notifications\\route.js',
+  page: '/api/notifications'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\MSI\Desktop\PixiForma\pixiforma-frontend\.next\server\app\api\auth\[...nextauth]\route.js'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\MSI\\Desktop\\PixiForma\\pixiforma-frontend\\.next\\server\\app\\api\\auth\\[...nextauth]\\route.js',
+  page: '/api/auth/_log'
+}
+ ✓ Compiled /_error in 341ms (1165 modules)
+ GET /api/notifications 500 in 977ms
+ POST /api/auth/_log 500 in 974ms
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\MSI\Desktop\PixiForma\pixiforma-frontend\.next\server\app\api\auth\[...nextauth]\route.js'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\MSI\\Desktop\\PixiForma\\pixiforma-frontend\\.next\\server\\app\\api\\auth\\[...nextauth]\\route.js',
+  page: '/api/auth/session'
+}
+ GET /api/auth/session 500 in 273ms
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\MSI\Desktop\PixiForma\pixiforma-frontend\.next\server\app\api\notifications\route.js'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\MSI\\Desktop\\PixiForma\\pixiforma-frontend\\.next\\server\\app\\api\\notifications\\route.js',
+  page: '/api/notifications'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\MSI\Desktop\PixiForma\pixiforma-frontend\.next\server\app\api\auth\[...nextauth]\route.js'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\MSI\\Desktop\\PixiForma\\pixiforma-frontend\\.next\\server\\app\\api\\auth\\[...nextauth]\\route.js',
+  page: '/api/auth/_log'
+}
+ GET /api/notifications 500 in 268ms
+ POST /api/auth/_log 500 in 282ms
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\MSI\Desktop\PixiForma\pixiforma-frontend\.next\server\app\api\auth\[...nextauth]\route.js'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\MSI\\Desktop\\PixiForma\\pixiforma-frontend\\.next\\server\\app\\api\\auth\\[...nextauth]\\route.js',
+  page: '/api/auth/session'
+}
+ GET /api/auth/session 500 in 286ms
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\MSI\Desktop\PixiForma\pixiforma-frontend\.next\server\app\api\notifications\route.js'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\MSI\\Desktop\\PixiForma\\pixiforma-frontend\\.next\\server\\app\\api\\notifications\\route.js',
+  page: '/api/notifications'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\MSI\Desktop\PixiForma\pixiforma-frontend\.next\server\app\api\auth\[...nextauth]\route.js'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\MSI\\Desktop\\PixiForma\\pixiforma-frontend\\.next\\server\\app\\api\\auth\\[...nextauth]\\route.js',
+  page: '/api/auth/_log'
+}
+ GET /api/notifications 500 in 323ms
+ POST /api/auth/_log 500 in 312ms
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\MSI\Desktop\PixiForma\pixiforma-frontend\.next\server\app\api\auth\[...nextauth]\route.js'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\MSI\\Desktop\\PixiForma\\pixiforma-frontend\\.next\\server\\app\\api\\auth\\[...nextauth]\\route.js',
+  page: '/api/auth/session'
+}
+ GET /api/auth/session 500 in 243ms
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\MSI\Desktop\PixiForma\pixiforma-frontend\.next\server\app\api\notifications\route.js'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\MSI\\Desktop\\PixiForma\\pixiforma-frontend\\.next\\server\\app\\api\\notifications\\route.js',
+  page: '/api/notifications'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\MSI\Desktop\PixiForma\pixiforma-frontend\.next\server\app\api\auth\[...nextauth]\route.js'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\MSI\\Desktop\\PixiForma\\pixiforma-frontend\\.next\\server\\app\\api\\auth\\[...nextauth]\\route.js',
+  page: '/api/auth/_log'
+}
+ GET /api/notifications 500 in 252ms
+ POST /api/auth/_log 500 in 279ms
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\MSI\Desktop\PixiForma\pixiforma-frontend\.next\server\app\api\auth\[...nextauth]\route.js'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\MSI\\Desktop\\PixiForma\\pixiforma-frontend\\.next\\server\\app\\api\\auth\\[...nextauth]\\route.js',
+  page: '/api/auth/session'
+}
+ GET /api/auth/session 500 in 258ms
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\MSI\Desktop\PixiForma\pixiforma-frontend\.next\server\app\api\notifications\route.js'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\MSI\\Desktop\\PixiForma\\pixiforma-frontend\\.next\\server\\app\\api\\notifications\\route.js',
+  page: '/api/notifications'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\MSI\Desktop\PixiForma\pixiforma-frontend\.next\server\app\api\auth\[...nextauth]\route.js'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\MSI\\Desktop\\PixiForma\\pixiforma-frontend\\.next\\server\\app\\api\\auth\\[...nextauth]\\route.js',
+  page: '/api/auth/_log'
+}
+ GET /api/notifications 500 in 263ms
+ POST /api/auth/_log 500 in 275ms
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\MSI\Desktop\PixiForma\pixiforma-frontend\.next\server\app\api\auth\[...nextauth]\route.js'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\MSI\\Desktop\\PixiForma\\pixiforma-frontend\\.next\\server\\app\\api\\auth\\[...nextauth]\\route.js',
+  page: '/api/auth/session'
+}
+ GET /api/auth/session 500 in 271ms
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\MSI\Desktop\PixiForma\pixiforma-frontend\.next\server\app\api\notifications\route.js'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\MSI\\Desktop\\PixiForma\\pixiforma-frontend\\.next\\server\\app\\api\\notifications\\route.js',
+  page: '/api/notifications'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\MSI\Desktop\PixiForma\pixiforma-frontend\.next\server\app\api\auth\[...nextauth]\route.js'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\MSI\\Desktop\\PixiForma\\pixiforma-frontend\\.next\\server\\app\\api\\auth\\[...nextauth]\\route.js',
+  page: '/api/auth/_log'
+}
+ GET /api/notifications 500 in 265ms
+ POST /api/auth/_log 500 in 281ms
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\MSI\Desktop\PixiForma\pixiforma-frontend\.next\server\app\api\auth\[...nextauth]\route.js'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\MSI\\Desktop\\PixiForma\\pixiforma-frontend\\.next\\server\\app\\api\\auth\\[...nextauth]\\route.js',
+  page: '/api/auth/session'
+}
+ GET /api/auth/session 500 in 251ms
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\MSI\Desktop\PixiForma\pixiforma-frontend\.next\server\app\api\notifications\route.js'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\MSI\\Desktop\\PixiForma\\pixiforma-frontend\\.next\\server\\app\\api\\notifications\\route.js',
+  page: '/api/notifications'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\MSI\Desktop\PixiForma\pixiforma-frontend\.next\server\app\api\auth\[...nextauth]\route.js'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\MSI\\Desktop\\PixiForma\\pixiforma-frontend\\.next\\server\\app\\api\\auth\\[...nextauth]\\route.js',
+  page: '/api/auth/_log'
+}
+ GET /api/notifications 500 in 327ms
+ POST /api/auth/_log 500 in 340ms
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\MSI\Desktop\PixiForma\pixiforma-frontend\.next\server\app\api\auth\[...nextauth]\route.js'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\MSI\\Desktop\\PixiForma\\pixiforma-frontend\\.next\\server\\app\\api\\auth\\[...nextauth]\\route.js',
+  page: '/api/auth/session'
+}
+ GET /api/auth/session 500 in 267ms
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\MSI\Desktop\PixiForma\pixiforma-frontend\.next\server\app\api\notifications\route.js'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\MSI\\Desktop\\PixiForma\\pixiforma-frontend\\.next\\server\\app\\api\\notifications\\route.js',
+  page: '/api/notifications'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\MSI\Desktop\PixiForma\pixiforma-frontend\.next\server\app\api\auth\[...nextauth]\route.js'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\MSI\\Desktop\\PixiForma\\pixiforma-frontend\\.next\\server\\app\\api\\auth\\[...nextauth]\\route.js',
+  page: '/api/auth/_log'
+}
+ GET /api/notifications 500 in 297ms
+ POST /api/auth/_log 500 in 293ms
+[?25h
